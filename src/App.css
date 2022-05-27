@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #101820FF;
+  color: #FEE715FF;
+  font-family: sans-serif;
+}
+
+main {
+}
+
+.header-container {
+  min-height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  line-height: 3rem;
+}
+
+.container {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.game-container {
+  border: solid #FEE715FF 2px ;
+  padding: 50px;
+  display: flex;
+}
+
+.sub-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+.figure-container {
+  fill: transparent;
+  stroke: #FEE715FF;
+  stroke-width: 4px;
+  stroke-linecap: round;
+}
+
+
+.letter {
+  border-bottom: 3px solid #FEE715FF;
+  display: inline-flex;
+  justify-content: center;
+  margin: 0 5px;
+  height: 40px;
+  width: 30px;
+}
+
+.word {
+  display: flex;
+}
+
+.wrong-letter {
+  font-size: 1.5rem;
+}
+
+.wrong-letter + .wrong-letter::before  {
+  display: inline-block;
+  white-space: pre;
+  content: ", ";
+}
+
+.clue-container,.word-container,.wrong-letters-container {
+  margin: 20px 0;
+}
+
+.alert {
+  border-radius: 25px;
+  width: 100%;
+  padding: 10px 25px;
+  color: #FFFFFF;
+  background: #D0342C;
+  text-align: center;
+}
+
+.popup-container {
+  background-color: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.show {
+  display: flex;
+}
+
+.hide {
+  display: none;
+}
+
+.popup {
+  border-radius: 5px;
+  box-shadow: 0 15px 10px 3px rgba(0, 0, 0, 0.1);
+  padding: 50px;
+  text-align: center;
+}
+
+.popup > h2 , .popup > h3, .popup > button {
+  margin: 10px 0;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 25px;
+  background-color: #FFFFFF;
+  color: black;
+}
+
+.green-background {
+  background: green;
+}
+.red-background {
+  background: red;
+}
