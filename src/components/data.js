@@ -2,22 +2,22 @@ const wordList = [
   {
     id: 1,
     word: 'venom',
-    clue: 'Marvel Characther',
+    clue: 'Marvel Character',
   },
   {
     id: 2,
     word: 'batman',
-    clue: 'DC characther',
+    clue: 'DC Character',
   },
   {
     id: 3,
     word: 'superman',
-    clue: 'DC characther',
+    clue: 'DC Character',
   },
   {
     id: 4,
     word: 'spiderman',
-    clue: 'Marvel characther',
+    clue: 'Marvel Character',
   },
   {
     id: 5,
