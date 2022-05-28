@@ -10,9 +10,6 @@ body {
   font-family: sans-serif;
 }
 
-main {
-}
-
 .header-container {
   min-height: 20vh;
   display: flex;
