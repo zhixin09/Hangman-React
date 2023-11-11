@@ -1,3 +1,6 @@
+# Live Demo
+https://zhixin09.github.io/Hangman-React/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
